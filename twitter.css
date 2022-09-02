@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+.container{
+    background-color: rgb(162, 162, 162);
+    height: 100vh;
+}
+
+.row{
+    display: flex;
+    background-color: blue;
+    height: 100vh;
+}
+
+.column{
+    display: flex;
+    justify-content: center;
+}
+
+#col-left{
+    display: flex;
+    flex-direction: column;
+    background-image: url(/Assetes/lohp_en_1302x955.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 55%;
+    align-items: center;
+}
+
+#col-right{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 45%;
+    justify-content: center;
+    padding: 0px 0px 0px 50px;
+}
+
+.logo-right{
+    width: 50px;
+    height: 50px;
+}
+
+.title{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    margin: 60px 0px;
+}
+
+.sub-title{
+    margin: 0px 0px 30px 0px;
+}
+
+.sub-title span{
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+p{
+    color: red;
+}
+
+.signup{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.btn-signup{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border : 1px solid white
+}
+
+.btn-signup:hover{
+    cursor: pointer;
+}
+
+.btn-signup:active{
+    border: 1px solid black;
+}
+
+#email .icon-text{
+    font-weight: 600;
+    color: white;
+}
+
+.icon{
+   width: 20px;
+   height: 20px; 
+   margin: 0px 10px 0px 0px;
+}
+
+#email{
+    background-color: rgb(0, 153, 255);
+    border: 1px solid rgb(0, 153, 255);
+}
+
+#email:active{
+    border: 1px solid black;
+}
+
+.icon-text{
+    font-size: 14px;
+}
+.email span{
+    color: white;
+}
+
+.account{
+    color: rgb(200, 200, 200);
+    font-weight: 800;
+    margin: 50px 0px 20px 0px;
+}
+
+.policy{
+    font-size: 10px;
+    color: rgb(190, 190, 190);
+}
+
+.policy span{
+    color: rgb(0, 153, 255);
+}
+
+a[href]{
+    color: rgb(0, 153, 255);
+}
+
+a[href]:hover{
+    color: rgb(0, 153, 255);
+}
+
+#btn{
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(0, 153, 255);
+    font-weight: 700;
+    border: 1px solid rgb(190, 190, 190);
+}
+
+#btn:hover{
+    background-color: rgb(0, 153, 255);
+    color: white;
+    border: 1px solid rgb(0, 153, 255);
+}
+
+#btn:active{
+    border: 1px solid white;
+}
+
+.divider{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  margin-bottom: 20px;
+}
+
+#div-text{
+color: rgba(255, 255, 255, 0.57);
+font-weight: bold;
+background-color: rgb(0, 0, 0);
+text-align: center;
+z-index: 100;
+width: 35px;
+padding: 0px 5px 0px 5px;
+}
+
+
+.thinline{
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.57);
+    width: 100%;
+    margin: -10px 0px 0px 0px;
+}
