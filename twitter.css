@@ -24,7 +24,7 @@
 #col-left{
     display: flex;
     flex-direction: column;
-    background-image: url(/Assetes/lohp_en_1302x955.png);
+    background-image: url(/assetes/lohp_en_1302x955.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 55%;
@@ -182,4 +182,18 @@ padding: 0px 5px 0px 5px;
     background-color: rgba(255, 255, 255, 0.57);
     width: 100%;
     margin: -10px 0px 0px 0px;
+}
+
+.divide {
+    display: flex;
+    color: white;
+    margin: 5px 0;
+}
+
+.divide .line {
+    margin-top: -8px;
+}
+
+.divide .lineText {
+    margin: 0 13px !important
 }
